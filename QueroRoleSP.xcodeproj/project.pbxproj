@@ -21,6 +21,7 @@
 		CC6B21A521971F0700CDE5C5 /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B21A421971F0700CDE5C5 /* Role.swift */; };
 		CC6B21A721971FDA00CDE5C5 /* RoleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B21A621971FDA00CDE5C5 /* RoleCell.swift */; };
 		CC6B21A92197215600CDE5C5 /* RoleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B21A82197215600CDE5C5 /* RoleVC.swift */; };
+		CC6B21AB21973CAA00CDE5C5 /* DateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B21AA21973CAA00CDE5C5 /* DateVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		CC6B21A421971F0700CDE5C5 /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
 		CC6B21A621971FDA00CDE5C5 /* RoleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleCell.swift; sourceTree = "<group>"; };
 		CC6B21A82197215600CDE5C5 /* RoleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleVC.swift; sourceTree = "<group>"; };
+		CC6B21AA21973CAA00CDE5C5 /* DateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				CC6B21982197142800CDE5C5 /* PlaceVC.swift */,
 				CC6B219F21971CFB00CDE5C5 /* UserVC.swift */,
 				CC6B21A82197215600CDE5C5 /* RoleVC.swift */,
+				CC6B21AA21973CAA00CDE5C5 /* DateVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				CC6B219421970F3000CDE5C5 /* User.swift in Sources */,
 				CC6B21992197142800CDE5C5 /* PlaceVC.swift in Sources */,
 				CC6B21A92197215600CDE5C5 /* RoleVC.swift in Sources */,
+				CC6B21AB21973CAA00CDE5C5 /* DateVC.swift in Sources */,
 				CC6B2196219712F100CDE5C5 /* Place.swift in Sources */,
 				CC6B219C2197156400CDE5C5 /* PlaceCell.swift in Sources */,
 				CC6B219E2197175600CDE5C5 /* UserCell.swift in Sources */,

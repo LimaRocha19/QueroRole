@@ -23,6 +23,8 @@ class PlaceVC: UIViewController {
         
         self.tableView.delegate = self
         self.tableView.dataSource = self
+        
+        RoleManager.newRole()
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -68,7 +70,12 @@ extension PlaceVC: UITableViewDelegate, UITableViewDataSource {
             let type = self.types[indexPath.section]
             let plc = self.places.filter({ $0.type == type })[indexPath.row]
             self.selected = plc
+            RoleManager.setPlace(place: self.selected)
             self.performSegue(withIdentifier: "users", sender: self)
         }
+    }
+    
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+            return self.types[section]
     }
 }

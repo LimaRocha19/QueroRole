@@ -24,6 +24,8 @@ class UserCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        self.photoView.layer.cornerRadius = self.photoView.frame.height/2
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

@@ -21,8 +21,8 @@ class User: NSObject {
     }
     
     static var mockup: [User] {
-        let users = [User(name: "Giovanna Bertho", nick: "gbertho", photo: UIImage(named: "gbertho")!),
-                     User(name: "Andressa M.", nick: "dessinha", photo: UIImage(named: "dessinha")!),
+        let users = [User(name: "Giovanna Bertho", nick: "gbertho", photo: UIImage(named: "gibertho")!),
+                     User(name: "Andressa Dari", nick: "dessinha", photo: UIImage(named: "dessinha")!),
                      User(name: "Alessandra Almeida", nick: "ale", photo: UIImage(named: "ale")!),
                      User(name: "Camila Fragoso", nick: "cami", photo: UIImage(named: "cami")!),
                      User(name: "Fernanda Kaoli", nick: "fefs.k", photo: UIImage(named: "nanda")!),
