@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		CC6B21812196FE2B00CDE5C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B21802196FE2B00CDE5C5 /* AppDelegate.swift */; };
-		CC6B21832196FE2B00CDE5C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B21822196FE2B00CDE5C5 /* ViewController.swift */; };
 		CC6B21862196FE2B00CDE5C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6B21842196FE2B00CDE5C5 /* Main.storyboard */; };
 		CC6B21882196FE2D00CDE5C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6B21872196FE2D00CDE5C5 /* Assets.xcassets */; };
 		CC6B218B2196FE2D00CDE5C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6B21892196FE2D00CDE5C5 /* LaunchScreen.storyboard */; };
+		CC6B219421970F3000CDE5C5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B219321970F3000CDE5C5 /* User.swift */; };
+		CC6B2196219712F100CDE5C5 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B2195219712F100CDE5C5 /* Place.swift */; };
+		CC6B21992197142800CDE5C5 /* PlaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B21982197142800CDE5C5 /* PlaceVC.swift */; };
+		CC6B219C2197156400CDE5C5 /* PlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B219B2197156400CDE5C5 /* PlaceCell.swift */; };
+		CC6B219E2197175600CDE5C5 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B219D2197175500CDE5C5 /* UserCell.swift */; };
+		CC6B21A021971CFB00CDE5C5 /* UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B219F21971CFB00CDE5C5 /* UserVC.swift */; };
+		CC6B21A321971EE500CDE5C5 /* RoleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B21A221971EE500CDE5C5 /* RoleManager.swift */; };
+		CC6B21A521971F0700CDE5C5 /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B21A421971F0700CDE5C5 /* Role.swift */; };
+		CC6B21A721971FDA00CDE5C5 /* RoleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B21A621971FDA00CDE5C5 /* RoleCell.swift */; };
+		CC6B21A92197215600CDE5C5 /* RoleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B21A82197215600CDE5C5 /* RoleVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CC6B217D2196FE2B00CDE5C5 /* QueroRoleSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QueroRoleSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6B21802196FE2B00CDE5C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC6B21822196FE2B00CDE5C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CC6B21852196FE2B00CDE5C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC6B21872196FE2D00CDE5C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC6B218A2196FE2D00CDE5C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC6B218C2196FE2D00CDE5C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6B219321970F3000CDE5C5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CC6B2195219712F100CDE5C5 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		CC6B21982197142800CDE5C5 /* PlaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceVC.swift; sourceTree = "<group>"; };
+		CC6B219B2197156400CDE5C5 /* PlaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCell.swift; sourceTree = "<group>"; };
+		CC6B219D2197175500CDE5C5 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		CC6B219F21971CFB00CDE5C5 /* UserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVC.swift; sourceTree = "<group>"; };
+		CC6B21A221971EE500CDE5C5 /* RoleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleManager.swift; sourceTree = "<group>"; };
+		CC6B21A421971F0700CDE5C5 /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
+		CC6B21A621971FDA00CDE5C5 /* RoleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleCell.swift; sourceTree = "<group>"; };
+		CC6B21A82197215600CDE5C5 /* RoleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +72,55 @@
 		CC6B217F2196FE2B00CDE5C5 /* QueroRoleSP */ = {
 			isa = PBXGroup;
 			children = (
+				CC6B21A121971EB500CDE5C5 /* Managers */,
+				CC6B219A2197154100CDE5C5 /* Cells */,
+				CC6B2197219713FC00CDE5C5 /* Controllers */,
+				CC6B219221970F1300CDE5C5 /* Model */,
 				CC6B21802196FE2B00CDE5C5 /* AppDelegate.swift */,
-				CC6B21822196FE2B00CDE5C5 /* ViewController.swift */,
 				CC6B21842196FE2B00CDE5C5 /* Main.storyboard */,
 				CC6B21872196FE2D00CDE5C5 /* Assets.xcassets */,
 				CC6B21892196FE2D00CDE5C5 /* LaunchScreen.storyboard */,
 				CC6B218C2196FE2D00CDE5C5 /* Info.plist */,
 			);
 			path = QueroRoleSP;
+			sourceTree = "<group>";
+		};
+		CC6B219221970F1300CDE5C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC6B219321970F3000CDE5C5 /* User.swift */,
+				CC6B2195219712F100CDE5C5 /* Place.swift */,
+				CC6B21A421971F0700CDE5C5 /* Role.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC6B2197219713FC00CDE5C5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC6B21982197142800CDE5C5 /* PlaceVC.swift */,
+				CC6B219F21971CFB00CDE5C5 /* UserVC.swift */,
+				CC6B21A82197215600CDE5C5 /* RoleVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CC6B219A2197154100CDE5C5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CC6B219B2197156400CDE5C5 /* PlaceCell.swift */,
+				CC6B219D2197175500CDE5C5 /* UserCell.swift */,
+				CC6B21A621971FDA00CDE5C5 /* RoleCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CC6B21A121971EB500CDE5C5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CC6B21A221971EE500CDE5C5 /* RoleManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +194,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC6B21832196FE2B00CDE5C5 /* ViewController.swift in Sources */,
+				CC6B21A321971EE500CDE5C5 /* RoleManager.swift in Sources */,
 				CC6B21812196FE2B00CDE5C5 /* AppDelegate.swift in Sources */,
+				CC6B21A721971FDA00CDE5C5 /* RoleCell.swift in Sources */,
+				CC6B219421970F3000CDE5C5 /* User.swift in Sources */,
+				CC6B21992197142800CDE5C5 /* PlaceVC.swift in Sources */,
+				CC6B21A92197215600CDE5C5 /* RoleVC.swift in Sources */,
+				CC6B2196219712F100CDE5C5 /* Place.swift in Sources */,
+				CC6B219C2197156400CDE5C5 /* PlaceCell.swift in Sources */,
+				CC6B219E2197175600CDE5C5 /* UserCell.swift in Sources */,
+				CC6B21A021971CFB00CDE5C5 /* UserVC.swift in Sources */,
+				CC6B21A521971F0700CDE5C5 /* Role.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +351,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X6JPLH3S7V;
 				INFOPLIST_FILE = QueroRoleSP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +370,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X6JPLH3S7V;
 				INFOPLIST_FILE = QueroRoleSP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
