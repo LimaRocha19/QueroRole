@@ -22,6 +22,8 @@
 		CC6B21A721971FDA00CDE5C5 /* RoleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B21A621971FDA00CDE5C5 /* RoleCell.swift */; };
 		CC6B21A92197215600CDE5C5 /* RoleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B21A82197215600CDE5C5 /* RoleVC.swift */; };
 		CC6B21AB21973CAA00CDE5C5 /* DateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B21AA21973CAA00CDE5C5 /* DateVC.swift */; };
+		CC6B21AD2197415600CDE5C5 /* FriendsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B21AC2197415600CDE5C5 /* FriendsVC.swift */; };
+		CC6B21AF2197699100CDE5C5 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B21AE2197699100CDE5C5 /* ProfileVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		CC6B21A621971FDA00CDE5C5 /* RoleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleCell.swift; sourceTree = "<group>"; };
 		CC6B21A82197215600CDE5C5 /* RoleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleVC.swift; sourceTree = "<group>"; };
 		CC6B21AA21973CAA00CDE5C5 /* DateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateVC.swift; sourceTree = "<group>"; };
+		CC6B21AC2197415600CDE5C5 /* FriendsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsVC.swift; sourceTree = "<group>"; };
+		CC6B21AE2197699100CDE5C5 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				CC6B219F21971CFB00CDE5C5 /* UserVC.swift */,
 				CC6B21A82197215600CDE5C5 /* RoleVC.swift */,
 				CC6B21AA21973CAA00CDE5C5 /* DateVC.swift */,
+				CC6B21AC2197415600CDE5C5 /* FriendsVC.swift */,
+				CC6B21AE2197699100CDE5C5 /* ProfileVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -199,6 +205,7 @@
 			files = (
 				CC6B21A321971EE500CDE5C5 /* RoleManager.swift in Sources */,
 				CC6B21812196FE2B00CDE5C5 /* AppDelegate.swift in Sources */,
+				CC6B21AF2197699100CDE5C5 /* ProfileVC.swift in Sources */,
 				CC6B21A721971FDA00CDE5C5 /* RoleCell.swift in Sources */,
 				CC6B219421970F3000CDE5C5 /* User.swift in Sources */,
 				CC6B21992197142800CDE5C5 /* PlaceVC.swift in Sources */,
@@ -208,6 +215,7 @@
 				CC6B219C2197156400CDE5C5 /* PlaceCell.swift in Sources */,
 				CC6B219E2197175600CDE5C5 /* UserCell.swift in Sources */,
 				CC6B21A021971CFB00CDE5C5 /* UserVC.swift in Sources */,
+				CC6B21AD2197415600CDE5C5 /* FriendsVC.swift in Sources */,
 				CC6B21A521971F0700CDE5C5 /* Role.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
